@@ -1,0 +1,22 @@
+{
+  "name": "untitled-logging-library",
+  "version": "0.1.0",
+  "description": "It's a lovely day on the computer, and you are writing beautiful logs.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LewisTehMinerz",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/node": "^13.11.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "figures": "^3.2.0",
+    "moment": "^2.24.0"
+  }
+}
