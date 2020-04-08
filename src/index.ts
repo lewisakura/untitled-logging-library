@@ -27,7 +27,7 @@ class Logger {
     constructor(prefix?: string, format?: string) {
         this.prefix = prefix;
 
-        if (!this.format) {
+        if (!format) {
             if (this.prefix) {
                 this.format = `${chalk.gray('「{time}」 「{prefix}」')} {level}{padding}{message}`;
             } else {
